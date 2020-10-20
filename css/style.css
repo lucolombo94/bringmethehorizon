@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Vollkorn', sans-serif;
+}
+
+body{
+	height: 100%;
+}
+
+/* classes bot */
+
+.w33{
+	width: 33.3%;
+	float: left;
+
+}
+
+.w50{
+	width: 50%;
+	float: left;
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.clear{
+	clear: both;
+}
+
+/* Aqui vai o css do meu site */
+
+header{
+	background-color: black;
+	width: 100%;
+	height: 60px;
+}
+
+header .container span{
+	font-size: 13px;
+	position: relative;
+	top: 19px;
+	color: #FFFFEF;
+}
+
+.logo{
+	float: right;
+	margin-right: 48%;
+	transform: translate(-50%;);
+}
+
+.logo img{
+	width: 60px;
+	height: 60px;
+}
+
+
+.hero .logo-tittle{
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+
+.hero .logo-tittle img{
+	width: 450px;
+	height: 200px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+
+.hero p{
+	font-size: 14px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 14px;
+}
+
+.hero .divisor{
+	border: 1px solid;
+	border-color: rgba(227, 227, 227, 0.6);
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+
+
+.hero .menu{
+	text-align: center;
+}
+
+.hero .menu li{
+	list-style-type: none;
+	display: inline;
+}
+
+.hero .menu a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	color: #505050;
+	margin: 14px;
+}
+
+.hero .menu a:hover{
+	color: purple;
+}
+
+.video{
+	margin-top: 50px;
+}
+
+.conteudo{
+	margin: 50px;
+}
+
+.conteudo h3{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+
+.conteudo p{
+	text-align: center;
+	font-size: 14px;
+}
+
+.conteudo .galery img{
+	margin-top: 50px;
+	width: 50%;
+	height: 400px;
+	float: left;
+	border-right: 4px solid white;
+	border-left: 4px solid white;
+}
+
+.conteudo .galery img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.conteudo .image-single img{
+	width: 100%;
+	height: 500px;
+	border-left: white 4px solid;
+	border-right: white 4px solid;
+	margin-top: 8px;
+}
+
+.conteudo .image-single img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.tenor-gif-embed{
+	border-left: 4px solid white; 
+	border-right: 4px solid white;
+	height: 800px; 
+	width: 100%; 
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.about{
+	margin-bottom: 160px;
+}
+
+.about h3{
+	font-size: 25px;
+	font-weight: 700;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+.about h6{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.about p{
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	text-align: center;
+}
+
+footer img{
+	height: 120px;
+	width:120px;
+	float: left;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 15px;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover{
+	color: purple;
+}
+
+footer p{
+	color: white;
+	font-size: 14px;
+}
+
+footer i{
+	color: white;
+	padding: 0 15px;
+	font-size: 27px;
+}
+
+footer i:hover{
+	color: purple;
+}
+
+/* css do responsivo */
+@media screen and (max-width: 768px){
+
+.video iframe{
+	height: 360px;
+}
+
+.conteudo .galery img{
+	height: 230px;
+}
+
+.conteudo .image-single img{
+	height: 300px;
+}
+
+.conteudo .tenor-gif-embed{
+	height: 240px;
+}
+
+footer{
+	padding-bottom: 6px;
+}
+
+footer a{
+	font-size: 11px;
+}
+
+footer p{
+	font-size: 11px;
+}
+
+footer i{
+	font-size: 22px;
+	padding: 8px;
+}
+
+}
